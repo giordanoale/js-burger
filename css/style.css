@@ -3,3 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #FFF5E2;
+}
+
+.big-container {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+}
+
+/* intestazione */
+header {
+  background-color: #FDBB40;
+  padding: 60px 40px 30px 40px;
+}
+/* /intestazione */
+
+/* pie di pagina */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D33359;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
