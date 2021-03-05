@@ -1,6 +1,8 @@
 var calculate = document.getElementById("calculate");
 var burgerName = document.getElementById("burger-name-input");
 var ingredients = document.getElementsByClassName("add-ingredient");
+var coupon = document.getElementById("coupon-input");
+var coupons = ["Giordano20", "Boolean", "Madrigali20"];
 
 // Evento click del bottone
 calculate.addEventListener("click",
@@ -17,7 +19,13 @@ calculate.addEventListener("click",
         }
       }
 
-      if ()
+      // Controllo coupon
+      if (coupons.includes(coupon.value) == true) {
+        sum -= sum * 0.2;
+      }
+
+      console.log(sum);
+
     } else {
       alert("Inserisci il nome del panino!");
 
