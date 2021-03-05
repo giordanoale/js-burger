@@ -3,6 +3,7 @@ var burgerName = document.getElementById("burger-name-input");
 var ingredients = document.getElementsByClassName("add-ingredient");
 var coupon = document.getElementById("coupon-input");
 var coupons = ["Giordano20", "Boolean", "Madrigali20"];
+var total = document.getElementById("total");
 
 // Evento click del bottone
 calculate.addEventListener("click",
@@ -24,7 +25,8 @@ calculate.addEventListener("click",
         sum -= sum * 0.2;
       }
 
-      console.log(sum);
+      // Il prezzo compare sulla pagina
+      total.innerHTML = sum.toFixed(2) + " $";
 
     } else {
       alert("Inserisci il nome del panino!");
