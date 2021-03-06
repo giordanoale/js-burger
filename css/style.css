@@ -89,6 +89,23 @@ header img {
 }
 /* /lista ingredienti */
 
+/* coupon sconto */
+.discount {
+  width: 89%;
+  margin: auto;
+  padding: 40px 0 20px 0;
+}
+
+.discount input {
+  margin-left: 20px;
+  background-color: #FFF5E2;
+  border: #FFF5E2;
+  line-height: 30px;
+  width: 400px;
+  border-radius: 7px;
+  padding-left: 8px;
+}
+/* /coupon sconto */
 /* /corpo principale */
 
 /* pie di pagina */
