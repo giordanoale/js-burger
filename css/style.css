@@ -30,6 +30,26 @@ header img {
 }
 /* /intestazione */
 
+/* corpo principale */
+
+/* inserimento nome burger */
+.burger-name {
+  padding: 60px 40px 30px 40px;
+}
+
+#burger-name-input {
+  width: 80%;
+  border: hidden;
+  font-size: 28px;
+}
+
+#burger-name-input::placeholder {
+  color: #000;
+}
+/* /inserimento nome burger */
+
+/* /corpo principale */
+
 /* pie di pagina */
 footer {
   display: flex;
