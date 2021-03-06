@@ -6,6 +6,7 @@
 
 body {
   background-color: #FFF5E2;
+  font-family: 'Roboto', sans-serif;
 }
 
 .big-container {
@@ -18,6 +19,14 @@ body {
 header {
   background-color: #FDBB40;
   padding: 60px 40px 30px 40px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  height: 200px;
+  top: -12px;
+  left: 608px;
 }
 /* /intestazione */
 
