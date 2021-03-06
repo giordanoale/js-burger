@@ -106,6 +106,26 @@ header img {
   padding-left: 8px;
 }
 /* /coupon sconto */
+
+/* bottone */
+.button {
+  width: 89%;
+  display: flex;
+  justify-content: center;
+}
+
+#calculate {
+  background-color: #FDC55C;
+  border: #FDC55C;
+  font-size: 26px;
+  font-weight: 600;
+  height: 70px;
+  width: 160px;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* /bottone */
 /* /corpo principale */
 
 /* pie di pagina */
