@@ -11,7 +11,6 @@ body {
 
 .big-container {
   width: 50%;
-  height: 100vh;
   background-color: white;
 }
 
@@ -31,7 +30,6 @@ header img {
 /* /intestazione */
 
 /* corpo principale */
-
 /* inserimento nome burger */
 .burger-name {
   padding: 60px 40px 30px 40px;
@@ -47,6 +45,49 @@ header img {
   color: #000;
 }
 /* /inserimento nome burger */
+
+/* lista ingredienti */
+.ingredients {
+  width: 89%;
+  margin: auto;
+}
+
+.ingredients h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.ingredients-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ingredients-list li {
+  width: 50%;
+  padding: 10px 0 10px 0;
+}
+
+.ingredients-list li label {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients-list li img {
+  height: 50px;
+}
+
+.ingredient {
+  padding: 0 20px 0 20px;
+  font-weight: 500;
+}
+
+.add {
+  padding-left: 15px;
+  color: #D33359;
+}
+/* /lista ingredienti */
 
 /* /corpo principale */
 
